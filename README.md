@@ -2,13 +2,13 @@
 
 # Kirigami Labs - Vyper Examples
 
-Welcome to the Vyper examples from Kirigami Labs!
+Welcome to Vyper examples from Kirigami Labs!
 
 Homepage: [https://kirigamilabs.com](https://kirigamilabs.com)
 
 We are building on the shoulders of giants and are proud to say that we leverage tools provided by those that came before us. 
 
-Special thanks to the Ethereum and Vyper organizations for providing amazing products and thank you specifically to 
+Special thanks to the Ethereum and Vyper Lang organizations for providing amazing products and thank you specifically to Charles Cooper, pcaversaccio, and all others who have contributed to the development and growth of the Vyper language. 
 
 ## Kirigami Labs - Vyper Example
 
