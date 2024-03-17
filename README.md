@@ -40,7 +40,6 @@ Once you are ready to deploy your Vyper contract, use the following commands to 
 | `/src/abi`               | ABI files for  **vyper** files in contracts folder                                              |
 | `/src/bytecode`          | Bytecode files for  **vyper** files in contracts folder                                         |
 | `/src/contracts`         | Contract files for **vyper**                                                                    |
-| `/src/interface`         | Interface files for  **vyper** files in contracts folder                                        |
 | `/public`                | Storage for assets that will be available at URL path after build                               |
 | `/public/assets`         | General image assets                                                                            |
 | `/references`            | Reference files that were used in the development of example **vyper** contracts                |
@@ -164,6 +163,8 @@ if goflag == 1:
 ```
 
 Note 1: example calls are solely for demonstrative purposes and may fail given changing values in pools
+
+
 Note 2: example web3.py files will be added later with onchain contracts for testing
 
 
