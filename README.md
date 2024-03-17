@@ -66,6 +66,7 @@ Please note all example contracts are experimental and solely for educational pu
 - `zeroForOne: bool[]` is a boolean array labeling whether you are swapping from Token 0 to Token 1 (value: True) or from Token 1 to Token 0 (value: False) within the pool.
 
 Example 2-pool arbitrage:
+```
     DexArbExecutor.functions.rpo2(
         1,
         125000000000000000,
@@ -74,8 +75,10 @@ Example 2-pool arbitrage:
         [120420203725456737495, 130155365790298005],
         [True, False]
         )
+```
 
 Example 3-pool arbitrage:
+```
     DexArbExecutor.functions.rpo3(
         1,
         500000000000000000,
@@ -84,6 +87,7 @@ Example 3-pool arbitrage:
         [1301765798543, 26483878580848, 505312605087474755],
         [False, True, False]
         )
+```
 
 
 ### Example DexArbExecutor transaction call via web3.py: 
