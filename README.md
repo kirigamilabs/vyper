@@ -67,26 +67,26 @@ Please note all example contracts are experimental and solely for educational pu
 
 Example 2-pool arbitrage:
 ```
-    DexArbExecutor.functions.rpo2(
-        1,
-        125000000000000000,
-        [3, 2],
-        ['0x65DC6065fF58d7B468e250F1037C575507c7A6a6', '0xF5C92780138061a113fd708d4b403E0E830effFf'],
-        [120420203725456737495, 130155365790298005],
-        [True, False]
-        )
+DexArbExecutor.functions.rpo2(
+    1,
+    125000000000000000,
+    [3, 2],
+    ['0x65DC6065fF58d7B468e250F1037C575507c7A6a6', '0xF5C92780138061a113fd708d4b403E0E830effFf'],
+    [120420203725456737495, 130155365790298005],
+    [True, False]
+    )
 ```
 
 Example 3-pool arbitrage:
 ```
-    DexArbExecutor.functions.rpo3(
-        1,
-        500000000000000000,
-        [2, 3, 2],
-        ['0x2cC846fFf0b08FB3bFfaD71f53a60B4b6E6d6482', '0x6e7F25cb3d281d64DbE4b1a38072836ADC11815F', '0x52c77b0CB827aFbAD022E6d6CAF2C44452eDbc39'],
-        [1301765798543, 26483878580848, 505312605087474755],
-        [False, True, False]
-        )
+DexArbExecutor.functions.rpo3(
+    1,
+    500000000000000000,
+    [2, 3, 2],
+    ['0x2cC846fFf0b08FB3bFfaD71f53a60B4b6E6d6482', '0x6e7F25cb3d281d64DbE4b1a38072836ADC11815F', '0x52c77b0CB827aFbAD022E6d6CAF2C44452eDbc39'],
+    [1301765798543, 26483878580848, 505312605087474755],
+    [False, True, False]
+    )
 ```
 
 
