@@ -88,6 +88,7 @@ Example 3-pool arbitrage:
 
 
 ### Example DexArbExecutor transaction call via web3.py: 
+```
 from web3 import Web3
 from datetime import datetime
 
@@ -160,7 +161,7 @@ if goflag == 1:
         
 
     print('Transaction 3 Complete : '+str(datetime.now()))
-
+```
 
 Note 1: example calls are solely for demonstrative purposes and may fail given changing values in pools
 Note 2: example web3.py files will be added later with onchain contracts for testing
